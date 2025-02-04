@@ -1,0 +1,22 @@
+{
+  "name": "my-super-package",
+  "version": "1.0.0",
+  "description": "my super package for test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihaiwm/my-super-package.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "mihai.h",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mihaiwm/my-super-package/issues"
+  },
+  "homepage": "https://github.com/mihaiwm/my-super-package#readme"
+}
