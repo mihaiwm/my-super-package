@@ -3,3 +3,9 @@ function helloWorldFunc(value: string) {
 }
 
 module.exports = helloWorldFunc;
+
+export function displayValue(value: string) {
+    console.log(`${value}`)
+}
+
+module.exports = helloWorldFunc;
