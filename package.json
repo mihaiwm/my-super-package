@@ -1,6 +1,6 @@
 {
   "name": "my-super-package",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "my super package for test",
   "main": "index.js",
   "scripts": {
