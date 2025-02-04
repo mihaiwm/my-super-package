@@ -1,10 +1,12 @@
 {
   "name": "my-super-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "my super package for test",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/mihaiwm/my-super-package/issues"
   },
-  "homepage": "https://github.com/mihaiwm/my-super-package#readme"
+  "homepage": "https://github.com/mihaiwm/my-super-package#readme",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
 }
