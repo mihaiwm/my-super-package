@@ -1,7 +1,7 @@
 {
-  "name": "my-super-package",
-  "version": "1.0.9",
-  "description": "My super package for test",
+  "name": "@wavemyth/email-templates",
+  "version": "1.1.1",
+  "description": "Wavemyth Email templates package",
   "main": "index.js",
   "module": "index.js",
   "types": "index.d.ts",
