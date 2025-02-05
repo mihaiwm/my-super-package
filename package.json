@@ -1,8 +1,10 @@
 {
   "name": "my-super-package",
-  "version": "1.0.4",
-  "description": "my super package for test",
-  "main": "index.js",
+  "version": "1.0.5",
+  "description": "My super package for test",
+  "main": "index.js",  
+  "module": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
@@ -11,9 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/mihaiwm/my-super-package.git"
   },
-  "keywords": [
-    "javascript"
-  ],
+  "keywords": ["javascript"],
   "author": "mihai.h",
   "license": "ISC",
   "bugs": {
