@@ -1,8 +1,8 @@
 {
   "name": "my-super-package",
-  "version": "1.0.5",
+  "version": "1.0.9",
   "description": "My super package for test",
-  "main": "index.js",  
+  "main": "index.js",
   "module": "index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -13,7 +13,9 @@
     "type": "git",
     "url": "git+https://github.com/mihaiwm/my-super-package.git"
   },
-  "keywords": ["javascript"],
+  "keywords": [
+    "javascript"
+  ],
   "author": "mihai.h",
   "license": "ISC",
   "bugs": {
@@ -22,5 +24,8 @@
   "homepage": "https://github.com/mihaiwm/my-super-package#readme",
   "devDependencies": {
     "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8"
   }
 }
